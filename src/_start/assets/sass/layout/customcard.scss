@@ -1,0 +1,268 @@
+//
+// Header
+//
+
+// Desktop Mode
+@include media-breakpoint-up(lg) {
+    .custom-card{
+        background-color: #384455;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .custom-percent-card{
+        background-color: #3A36DB;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #FFFFFF;
+    }
+
+    .justify-between{
+        justify-content: space-between!important;
+    }
+
+    .card-icon-div{
+        width: 55px;
+        height: 55px;
+        background-color: #2B3441;
+        border-radius: 15px;
+        margin-right: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow-icon-div{
+        width: 24px;
+        height: 24px;
+        background: rgba(26, 213, 152, 0.2);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .arrow-down-icon-div{
+        width: 24px;
+        height: 24px;
+        background: rgba(234, 58, 61, 0.2);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .custom-card-header{
+        display: flex;
+    }
+
+    .percent-text{
+        margin-left: 10px;
+        color: #1AD598;
+    }
+
+    .red-text{
+        color: #EA3A3D!important;
+    }
+
+    .card-content-title{
+        font-size: 16px;
+        color: #809FB8;
+        margin-top: 15px;
+        font-weight: normal;
+    }
+
+    .card-content-number{
+        font-size: 34px;
+        color: #ffffff;
+        font-weight: normal;
+    }
+
+    .card-sub-text{
+        color: #809FB8;
+        font-size: 16px;
+    }
+
+    .card-content-flex{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .recent-sale-list{
+        .recent-sale-item{
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+            .round-box{
+                background: #06152B;
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+
+            p{
+                margin-bottom: 0;
+            }
+
+            .recent-sale-item-price{
+                float: right;
+                color: #1AD598;
+            }
+
+        }
+    }
+
+    .invoice-table-option{
+        height: 36px;
+        font-size: 14px;
+        background-color: #2B3441;
+        border-radius: 10px;
+        color: #ffffff;
+        outline: none;
+        border: 1px solid #384455;
+        padding: 0 10px;
+        margin-top: -5px;
+    }
+
+    .report-btn{
+        background-color: #3A36DB;
+        color: #ffffff;
+        margin-right: 30px;
+    }
+
+    .percent-chart-div{
+        // #SvgjsText1015{
+        //     display: none!important;
+        // }
+        #SvgjsText1016{
+            fill: #ffffff!important;
+            font-size: 32px!important;
+        }
+    }
+    
+}
+
+// Tablet & Mobile Modes
+@include media-breakpoint-down(lg) {
+    .custom-card{
+        background-color: #384455;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .custom-percent-card{
+        background-color: #3A36DB;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #FFFFFF;
+    }
+
+    .justify-between{
+        justify-content: space-between!important;
+    }
+
+    .card-icon-div{
+        width: 55px;
+        height: 55px;
+        background-color: #2B3441;
+        border-radius: 15px;
+        margin-right: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow-icon-div{
+        width: 24px;
+        height: 24px;
+        background: rgba(26, 213, 152, 0.2);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .arrow-down-icon-div{
+        width: 24px;
+        height: 24px;
+        background: rgba(234, 58, 61, 0.2);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .custom-card-header{
+        display: flex;
+    }
+
+    .percent-text{
+        margin-left: 10px;
+        color: #1AD598;
+    }
+
+    .red-text{
+        color: #EA3A3D!important;
+    }
+
+    .card-content-title{
+        font-size: 16px;
+        color: #809FB8;
+        margin-top: 15px;
+        font-weight: normal;
+    }
+
+    .card-content-number{
+        font-size: 34px;
+        color: #ffffff;
+        font-weight: normal;
+    }
+
+    .card-sub-text{
+        color: #809FB8;
+        font-size: 16px;
+    }
+
+    .card-content-flex{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .recent-sale-list{
+        .recent-sale-item{
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+            .round-box{
+                background: #06152B;
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+
+            p{
+                margin-bottom: 0;
+            }
+
+            .recent-sale-item-price{
+                float: right;
+                color: #1AD598;
+            }
+
+        }
+    }
+
+    .invoice-table-option{
+        height: 36px;
+        font-size: 14px;
+        background-color: #2B3441;
+        border-radius: 10px;
+        color: #ffffff;
+        outline: none;
+        border: 1px solid #384455;
+        padding: 0 10px;
+        margin-top: -5px;
+    }
+
+    .report-btn{
+        background-color: #3A36DB;
+        color: #ffffff;
+        margin-right: 30px;
+    }
+}
